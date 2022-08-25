@@ -24,20 +24,10 @@ console.log(tommy.eat());
 // creating child class of Animal class
 
 class Dog extends Animal{
-    constructor(name, age, color){
-        super();
-        this.name = name;
-        this.age = age;
-        this.color = color;
-    }
-
-    colour(){
-        return `${this.name} is of ${this.color} color`;
-    }
+    
 }
 
-const monty = new Dog("Kitty", 2, "brown");
+const monty = new Dog("Kitty", 2);
 console.log(monty.eat());
 console.log(monty.isCute());
 console.log(monty.isSuperCute());
-console.log(monty.colour())
