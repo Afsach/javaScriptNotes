@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&family=Share:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin: 0;
+    font-family: 'Share', cursive;;
+}
+
+.header {
+    min-height: 60vh;
+    background : url(./bgHeader.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color : white;
+    position: relative;
+}
+a{
+    text-decoration: none;
+    color :white;
+}
+.container {
+    max-width: 1000px;
+    margin :auto;
+    width: 90%;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 8vh;
+
+}
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    list-style-type: none;
+}
+.header-headline{
+    position: absolute;
+    top :50%;
+    left :50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.headline{
+    text-transform: uppercase;
+}
+.btn {
+    outline: none;
+    border:none;
+    display: inline-block;
+    cursor: pointer;
+}
+.btn-headline{
+    padding : 1rem 1.5rem;
+    color :white;
+    background-color: rgb(11, 24, 21);
+    margin-top : 1rem;
+    font-size: 14px;
+}
+
+/* section todo  */
+section.section-todo {
+    margin-top: 4rem;
+    text-align: center;
+}
+
+.form-todo {
+    min-height: 6vh;
+    display: flex;
+    justify-content: space-between;
+    margin-top : 1rem;
+}
+
+.form-todo input{
+    min-height: 100%;
+}
+
+.form-todo input[type="text"]{
+    width : 80%;
+    font-size: 16px;
+    padding : 0.8rem;
+}
+
+.form-todo input[type="submit"]{
+    width: 17%;
+    background-color: rgb(11, 24, 21);
+    color : white;
+    font-size: 16px;
+    font-weight: 500;
+}
+/* todos */
+.todo-list {
+    list-style-type: none;
+    font-size: 16px;
+    text-align: left;
+}
+
+.todo-list li {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color : white;
+    padding: 0.7rem;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.btn{
+    font-size: 16px;
+    padding :0.5rem;
+    background: #fff;
+    color : black;
+    margin: 0 0.3rem;
+    font-weight: bold;
+}
+
+/* signup form  */
+.form-section{
+    background-color: rgb(229, 231, 226);
+    margin:4rem auto;
+    text-align: center;
+    border-radius: 10px;
+    padding : 1rem;
+}
+.SignupForm{
+    max-width: 800px;
+    width: 95%;
+    margin : auto;
+    text-align: left;
+}
+.form-section .form-group{
+    margin-top : 1rem;
+}
+
+.SignupForm input{
+    width : 100%;
+    min-height: 5vh;  
+    padding : 10px 12px;
+    display: block;
+    font-size: 14px;
+    border-radius: 5px;
+}
+.SignupForm label{
+    display: block;
+    font-size: 14px;
+    margin-bottom: 0.5rem;
+}
+.SignupForm textarea{
+    width: 100%;
+}
+
+.form-btn{
+    display: block;
+    background-color:  rgb(11, 24, 21);
+    padding : 1rem 2rem;
+    font-size: 16px;
+    color:white;
+    font-weight: bold;
+    margin: auto;
+    margin-top: 1rem;
+}
