@@ -29,7 +29,7 @@ sendRequest("Get", URL)
         const id = (data[3].id);
         return id;
     }).then(id => {
-        const url = `${URL}/${id}ss`;
+        const url = `${URL}/${id}`;
         // console.log(url);
         return sendRequest("GET", url);
     }).then(newResponse => {
