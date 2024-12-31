@@ -1,4 +1,4 @@
-// how to create array
+  // how to create array
 // Array:- Is a ordered collection of items 
 // array is refference datatype
 let fruits = ["apple", "Mango", "Grapes"];

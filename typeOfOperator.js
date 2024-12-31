@@ -9,12 +9,15 @@
 
 let age = 19;
 let myName = "Nagma";
-console.log(typeof (age));
+console.log(typeof (age));  // after typeof parenthesis is not required
+console.log(typeof age);
 console.log(typeof(myName));
+console.log(typeof myName);
 
 // convert number to  string
 age = "19";
 console.log(typeof(age));
+
 
 // convert string to number
 age = +"19";
@@ -33,7 +36,7 @@ console.log(`My name is ${firstName} ${lastName} and my age is ${age}`);
 let myNumber = 123;
 let secNumber = 45;
 console.log(myNumber);
-console.log(Number.MAX_SAFE_INTEGER);
+console.log("Max safe integer = " , Number.MAX_SAFE_INTEGER);
 let diffNumber =BigInt(4125325698542365852452134525622455214522789212);
 console.log(diffNumber);
 console.log(secNumber + myNumber);
